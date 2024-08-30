@@ -1,0 +1,8 @@
+[package]
+name = "save_rtsp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ffmpeg-the-third = { version = "2.0.1+ffmpeg-7.0", git = "https://github.com/lujing-jlu/ffmpeg-the-third-rk" }
+chrono = "0.4"
